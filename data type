@@ -1,0 +1,58 @@
+dic = {
+    "name":"ram",
+    "year": 129
+    }
+    
+print(dic)
+print(type(dic))
+    
+x= 5
+print(type(x))
+
+x = "hello world"
+print(type(x))
+
+x = ["apple", "cherry", 'h',1,8,7]
+print(type(x))
+
+
+x = True
+print(type(x))
+ 
+ 
+ 
+x = {"ram", "mohan", 5, 3, 'h' , '1'}
+print(type(x))
+
+
+x = 10.10
+print(type(x))
+
+
+class SportCar:
+    
+    jump = "Sport car is the jumping car"
+    dict = {}
+    dict["window"] = 5
+
+
+class Car:
+    
+    tyre =" This is BMW Tyres"
+    wheels = 4 
+    breaks = "This is BMW front breaks"
+
+    sportcarObj = SportCar()
+    
+    
+obj = Car()
+print(obj.tyre)
+print(obj.wheels)
+print(obj.breaks)
+print(obj.sportcarObj) 
+print(obj.sportcarObj.jump)
+    
+
+
+
+
